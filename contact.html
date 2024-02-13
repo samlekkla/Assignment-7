@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6: Form</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <main class="screen">
+        <form class="form" autocomplete="off">
+            <label for="name" class="label">FULL NAME</label>
+            <input type="text" name="name" class="input-field" placeholder="Enter your full name">
+            <label for="email" class="label">EMAIL</label>
+            <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required
+                autofocus>
+            <label for="message-regarding">MESSAGE REGARDING</label>
+            <input type="text" name="message-regarding" class="input-field" placeholder="Enter the message regarding">
+            <label class="message-label">MESSAGE
+                <div class="message-box">Your Message</div>
+                <textarea name="message" id="name" cols="30" rows="3" class="textarea" placeholder="Enter the message"></textarea>
+            </label>
+            
+            <button type="submit" class="button">SEND MESSAGE</button>
+        </form>
+        <img src="images/rubberduck.png" alt="A yellow rubber duck">
+    </main>
