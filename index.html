@@ -18,18 +18,23 @@
     <main class="screen">
         <form class="form" autocomplete="off">
             <label for="name" class="label">FULL NAME</label>
-            <input type="text" name="name" class="input-field" placeholder="Enter your full name">
+            <input type="text" id="name" name="name" class="input-field" placeholder="Enter your full name">
             <label for="email" class="label">EMAIL</label>
-            <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required
+            <input type="email" id="email" name="email" class="input-field" placeholder="Enter your email" required
                 autofocus>
             <label for="message-regarding">MESSAGE REGARDING</label>
-            <input type="text" name="message-regarding" class="input-field" placeholder="Enter the message regarding">
+            <input type="text" id="message-regarding" name="message-regarding" class="input-field"
+                placeholder="Enter the message regarding">
             <label class="message-label">MESSAGE
                 <div class="message-box">Your Message</div>
-                <textarea name="message" id="name" cols="30" rows="3" class="textarea" placeholder="Enter the message"></textarea>
+                <textarea id="message" name="message" cols="30" rows="3" class="textarea"
+                    placeholder="Enter the message"></textarea>
             </label>
-            
             <button type="submit" class="button">SEND MESSAGE</button>
         </form>
         <img src="images/rubberduck.png" alt="A yellow rubber duck">
     </main>
+
+</body>
+
+</html>
